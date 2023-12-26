@@ -1137,3 +1137,87 @@ footer .waven #wave4 {
     color: white;
     font-weight: 600;
 }
+
+#prodetails {
+    padding: 20px 50px;
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-column {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h6 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#prodetails .single-pro-details h4 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#prodetails .single-pro-details h2 {
+    margin: 0;
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details .ATC {
+    margin: 20px;
+    background-color: white;
+    color: rgb(255, 142, 255);
+    padding: 20px;
+    width: 25%;
+    border: 1px solid rgb(255, 142, 255);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 0 5px rgb(255, 142, 255);
+}
+
+#prodetails .single-pro-details .ATC:hover {
+    box-shadow: 0 0 5px rgb(255, 142, 255), 0 0 25px rgb(255, 142, 255), 0 0 50px rgb(255, 142, 255), 0 0 100px rgb(255, 142, 255), 0 0 200px rgb(255, 142, 255);
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+    font-weight: 200;
+}
